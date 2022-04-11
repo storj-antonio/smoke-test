@@ -10,13 +10,13 @@ import (
 
 	"github.com/go-ping/ping"
 	"go.uber.org/zap"
-	"storj.io/storj/lib/uplink"
-	"storj.io/storj/pkg/identity"
-	"storj.io/storj/pkg/pb"
-	"storj.io/storj/pkg/peertls/tlsopts"
-	"storj.io/storj/pkg/rpc"
-	"storj.io/storj/pkg/storj"
-	"storj.io/storj/private/memory"
+	"storj.io/common/identity"
+	"storj.io/common/pb"
+	"storj.io/common/peertls/tlsopts"
+	"storj.io/common/rpc"
+	"storj.io/common/storj"
+	"storj.io/lib/uplink"
+	"storj.io/private/memory"
 )
 
 var logger = log.New(os.Stdout, "", log.Ldate|log.Ltime|log.Lshortfile)
